@@ -23,6 +23,6 @@ Inside students routes file, create routes to
   - pass a student object to template for displaying student data
   ```js
   res.render("studentDetail", {
-    student: { name: "rahul", email: "rahul@altcampus.io" },
+    student: { name: "rahul", email: "rahul@altcampus.io",age:27 },
   });
   ```
