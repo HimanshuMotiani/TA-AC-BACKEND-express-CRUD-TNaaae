@@ -8,7 +8,8 @@
 </head>
 <body>
    <% users.forEach(item=>{ %>
-<h1><%= item.username %></h1>
+    <a href="/users/<%= item.id %>">
+        <h1><%= item.username %></h1></a>
 <h2><%= item.email %></h2>
 <h3><%= item.age %></h3>
    <% }) %>
