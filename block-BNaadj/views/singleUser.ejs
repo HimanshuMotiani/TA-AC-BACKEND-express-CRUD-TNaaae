@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1><%= singleUser.name %></h1>
+<h2><%= singleUser.email %></h2>
+<h3><%= singleUser.age %></h3>
+<h4><%= singleUser.address %></h4>
+<h5><%= singleUser.bio %></h5>
+<h6><%= singleUser.hobbies %></h6>
+<a href="/users/<%= singleUser.id %>/edit">
+    <button>Edit</button>
+</a>
+<a href="/users/<%= singleUser.id %>/delete">
+    <button>Delete</button>
+</a>
+<a href="/users">
+    <button>List</button>
+</a>
+</body>
+</html>
+
